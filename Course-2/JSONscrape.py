@@ -14,5 +14,5 @@ add = 0
 lst = info.get('comments')
 for item in lst:
     add = add + int(item['count'])
-
+    
 print(add)
