@@ -6,6 +6,5 @@ for line in handle:
 	num = re.findall('[0-9]+', line)
 	for n in num:
 		n = int(n)
-		add = add + n
-	
+		add = add + n	
 print(add)
